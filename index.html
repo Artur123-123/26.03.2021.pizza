@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container center inputy-container">
+    <button onclick="formularz(value), formularz2(value)">Zamów</button>
+    <input type="text" placeholder="Imię" id="imie">
+    <input type="text" placeholder="Nazwisko" id="nazwisko">
+    <select name="pizze" id="pizza" class="size" onchange="menu(value)">
+        <option value="Hawajska">Hawajska</option>
+        <option value="Neapolitana">Neapolitana</option>
+        <option value="Bianca">Bianca</option>
+        <option value="Ziti">Ziti pizza</option>
+    </select>
+    </div>
+    <div class="container">
+    <img src="maklowicz.webp" alt="">
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
